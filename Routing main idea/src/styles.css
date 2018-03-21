@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+a{
+  margin: 0 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  transition: all 1s;
+}
+.active{
+  padding: 10px;
+  color: white;
+  background-color: black;
+  transition: all 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
